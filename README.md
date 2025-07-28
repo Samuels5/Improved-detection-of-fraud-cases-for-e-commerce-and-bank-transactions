@@ -71,10 +71,15 @@ As a data scientist at Adey Innovations Inc., this project focuses on creating r
 - **Encoding**: One-hot encoding for categorical variables
 - **Train-Test Split**: 80-20 split with stratification
 
-## Next Steps (Tasks 2-3)
+## Task 2: Model Building and Evaluation ✅
 
-- [ ] Model Building: Logistic Regression + Ensemble Model (XGBoost/LightGBM)
-- [ ] Model Evaluation: Focus on AUC-PR, F1-Score, Precision-Recall
+- **Model Building**: Logistic Regression and XGBoost pipelines implemented with SMOTE for class imbalance
+- **Evaluation Metrics**: AUC-PR, F1-Score, Confusion Matrix, Precision-Recall Curve
+- **Results**: Both models evaluated; XGBoost generally outperformed Logistic Regression on AUC-PR and F1-Score (see notebook for details)
+- **Best Model**: XGBoost selected for further explainability and business recommendations
+
+## Next Steps (Task 3)
+
 - [ ] SHAP Analysis: Model explainability and feature importance
 - [ ] Final Report: Model comparison and business recommendations
 
@@ -93,7 +98,7 @@ As a data scientist at Adey Innovations Inc., this project focuses on creating r
 ## Submission Status
 
 - ✅ **Interim 1** (Due: July 20, 2025) - Task 1 Completed
-- ⏳ **Interim 2** (Due: July 27, 2025) - Task 2 in Progress
+- ✅ **Interim 2** (Due: July 27, 2025) - Task 2 Completed (Modeling and Evaluation)
 - ⏳ **Final Submission** (Due: July 29, 2025) - Task 3 Pending
 
 ## Repository Link
